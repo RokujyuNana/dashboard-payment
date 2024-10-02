@@ -18,7 +18,7 @@ st.set_page_config(
 # Load your dataset. Here, we're using CSV instead of SQLite for simplicity.
 @st.cache_data
 def load_data():
-    file_path = '/workspaces/dashboard-payment/order_payments_dataset.csv'
+    file_path = 'https://github.com/RokujyuNana/dashboard-payment/blob/main/order_payments_dataset.csv'
     data = pd.read_csv(file_path)
     return data
 
