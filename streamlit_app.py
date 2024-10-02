@@ -19,7 +19,7 @@ st.set_page_config(
 @st.cache_data
 def load_data():
     
-    data = pd.read_csv("dashboard/main_data.csv")
+    data = pd.read_csv("order_payments_dataset.csv")
     return data
 
 data = load_data()
